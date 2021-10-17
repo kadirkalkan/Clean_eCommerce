@@ -6,9 +6,9 @@ using System.Text;
 
 namespace Clean_eCommerce.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class IdentityContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public IdentityContext(DbContextOptions<IdentityContext> options)
             : base(options)
         {
         }
