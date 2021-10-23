@@ -9,7 +9,7 @@ using System;
 
 namespace Clean_eCommerce.Data.Migrations
 {
-    [DbContext(typeof(IdentityContext))]
+    [DbContext(typeof(DatabaseContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application_Core.Interfaces
+namespace ApplicationCore.Interfaces
 {
     public interface IAsyncRepository<T> where T: BaseEntity
     {
